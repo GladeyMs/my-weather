@@ -1,0 +1,3 @@
+export const ACTION_TYPES = {
+	SET_ROUTE_HISTORY: 'SET_ROUTE_HISTORY',
+}
