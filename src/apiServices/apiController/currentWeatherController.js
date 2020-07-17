@@ -12,6 +12,3 @@ export const currentWeatherController = (configService) => {
 		},
 	}
 }
-
-// q: 'Bangkok',
-// appid: 'ed83396a6ac7c30bad91228ce34dd623'
