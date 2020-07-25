@@ -13,8 +13,8 @@ export const CardComponent = styled.div`
 				`
 			case 'hightlight':
 				return css`
-					width: 200px;
-					height: 180px;
+					width: 230px;
+					height: 190px;
 					border-radius: 5px;
 					padding: 10px 20px;
 					margin: 0 20px;

@@ -13,6 +13,12 @@ export const BoxComponent = styled.div`
 					display: flex;
 					margin-bottom: 10px;
 				`
+			case 'rowSun':
+				return css`
+					display: flex;
+					margin-top: 10px;
+					align-items: center;
+				`
 			default:
 				return css``
 		}

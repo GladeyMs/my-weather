@@ -19,6 +19,20 @@ export const TextComponent = styled.span`
 				return css`
 					font-size: 25px;
 				`
+			case 'title':
+				return css`
+					font-size: 14px;
+					color: #c0c0c0;
+				`
+			case 'detail':
+				return css`
+					font-size: 26px;
+				`
+			case 'sun':
+				return css`
+					font-size: 18px;
+					margin-left: 5px;
+				`
 			default:
 				return css``
 		}

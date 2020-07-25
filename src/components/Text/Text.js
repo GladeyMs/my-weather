@@ -3,8 +3,8 @@ import { TextComponent } from './styled'
 
 export const Text = ({ className, children }) => {
 	return (
-		<React.Fragment>
+		<div>
 			<TextComponent className={className}>{children}</TextComponent>
-		</React.Fragment>
+		</div>
 	)
 }
